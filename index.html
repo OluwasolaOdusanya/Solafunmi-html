@@ -24,55 +24,74 @@
  <input type="date" name="" id="">
  <input type="submit" value ="">
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solafunmi's Website</title>
  </head>
  <body>
   <h1>CSS styling class</h1>
  <form>
 <div class="container">
- <label for="Last name">Last name
-    <input type="text" name="" id="First name" placeholder="Enter your Last Name" value="Oluwasola" size="20" name="Last name" maxlength="10">
+ <label for="lastname">Last name
+    <input type="text" name="" id="firstname" placeholder="enter your lastname"size="20" name="lastname" maxlength="10">
+  </div>
 
+  <div>
   <label for="Username">User Name
-    <input type="text" name="" id="User name" placeholder="Enter your User name" value="Solafunmi" size="20" name="Username name" maxlength="10">
-</p>  
-<label for="datetime">Date of Birth
-  <input type="date" name="datetime" maxlength="10">
+    <input type="text" name="" id="User name" placeholder="Enter your User name"size="20" name="Username name" maxlength="10">
+  </div>
 
-<p>
-  <label for="Email">Email address
-    <input type="email" />
-<p>
-  <input type="file" name="" id="">
-</p>
-<p>
-  <label for="Country Selector">Select Country
-    <input type="" name="" id="Country">
-<p>
-  <label for="password">
-  <input type="password"> Enter password 
-</p>
-<p>
-  <label for="Submit">
-  <input type="submit" value ="Submit">
-</p>
-<p>
-  <label for="checkbox">I agree to the terms and condition</label>
-  <input type="checkbox" name="" id="">
-</p>
- </label>
- <label for="Gender">Gender</label>
- <Select id="gender" name="gender">
- <option value="Female">Female</option>
- <option value="Male">Male</option>
-</Select>
-   </form>
-  </body>
+  <div>
+<label for="datetime">Date of Birth
+<input type="date" name="datetime" maxlength="10">
 </div>
+
+<div>
+  <label for="email">Email address
+    <input type="email" name="email">
+  </div>
+
+  <div>
+  <label for="file">File
+  <input type="file" name="file" id="file">
+</div>
+
+<div>
+  <label for="countryselector">Select Country
+    <select name="countryselector" id="countryselector">
+      <option value="nigeria">Nigeria</option>
+      <option value="canada">Canada</option>
+      <option value="unitedkingdom">United Kingdom</option>
+    </select>
+  </div>
+
+<div>
+  <label for="password">Enter Password
+  <input type="password" id="password" name="password">
+</div>
+
+<div>
+ <label for="gender">Gender</label>
+ <select id="gender" name="gender">
+ <option value="female">Female</option>
+ <option value="male">Male</option>
+</Select>
+</div>
+
+<div>
+  <label for="checkbox">I agree to the terms and condition
+  <input type="checkbox" name="checkbox" id="checkbox">
+</div>
+
+<div>
+  <input type="submit" value="submit">
+</div>
+   </form>
+  </div>
+  </body>
+</html>
